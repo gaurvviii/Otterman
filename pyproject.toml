@@ -1,0 +1,31 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "otterman"
+version = "0.1.0"
+authors = [
+  { name="Gaurvi", email="" },
+]
+description = "Vendor Shop Management System"
+readme = "README.md"
+requires-python = ">= 3.8"
+dependencies = [
+    "fastapi",
+    "sqlalchemy",
+    "passlib",
+    "python-jose",
+    "python-multipart",
+    "uvicorn",
+    "pytest",
+    "httpx"
+]
+
+[tool.pytest.ini_options]
+pythonpath = [
+    "."
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["."]

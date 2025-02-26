@@ -40,3 +40,23 @@ Traceback (most recent call last):
     version = _bcrypt.__about__.__version__
               ^^^^^^^^^^^^^^^^^
 AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-02-26 18:28:23,481 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/passlib/handlers/bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-02-26 18:29:21,944 - config - WARNING - Registration attempt with existing username/email: gaurvvii
+2025-02-26 18:29:21,944 - config - ERROR - Error during vendor registration: 400: Username or email already registered
+2025-02-26 18:29:35,635 - config - WARNING - Registration attempt with existing username/email: gaurvvii
+2025-02-26 18:29:35,635 - config - ERROR - Error during vendor registration: 400: Username or email already registered
+2025-02-26 18:29:45,244 - config - WARNING - Registration attempt with existing username/email: gaurvvii
+2025-02-26 18:29:45,244 - config - ERROR - Error during vendor registration: 400: Username or email already registered
+2025-02-26 20:15:42,883 - config - INFO - New vendor registered successfully: gaurvi
+2025-02-26 22:06:28,553 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/passlib/handlers/bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-02-26 22:08:01,838 - config - INFO - Shop created successfully for vendor 1: shop 1 
