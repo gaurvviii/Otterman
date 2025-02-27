@@ -1,4 +1,4 @@
-# Otterman - Vendor Shop Management System
+# Ottermap - Vendor Shop Management System
 
 A FastAPI-based system for managing vendor shops with geolocation search capabilities.
 
@@ -11,9 +11,13 @@ A FastAPI-based system for managing vendor shops with geolocation search capabil
 
 ## Development
 
-To run the tests:
+To run the test:
 
 ```bash
+pip install -r requirements.txt
 pip install -e .
-pytest -v
+python main.py
 ```
+## Access API and perform all crud and safet functions
+
+GET /api/docs
